@@ -1,0 +1,72 @@
+
+*,a, h1, h2, h3, h4, h5, h6, .pricing-table, .title, .label, .button {
+	font-family:"Open Sans","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+}
+
+.pricing-table .title {
+	font-family:"Open Sans","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+}
+
+.pricing-table .price {
+	font-family:"Open Sans","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+}
+
+#header {
+
+	padding-top: 3em;
+	background-image:url(../img/background.png);
+	height:200px;
+	background-size: 400px;
+	background-repeat:no-repeat;
+	background-position: 80% 2em;
+
+
+}
+
+.break-line {
+	background-color: #9966cc;
+	height:0.5em;
+	margin-bottom:2em;
+}
+
+.grey-break-line {
+	background-color: #cccc99;
+	margin-top:2em;
+	margin-bottom:2em;
+	height:0.5em;
+}
+
+.grey-end-line {
+	background-color: #cccc99;
+	height:0.5em;
+}
+
+#footer {
+	padding-top:2em;
+	padding-bottom: 3em;
+	background-image:url(../img/background.png);
+	height:200px;
+	background-size: 400px;
+	background-repeat:no-repeat;
+	background-position: 80% -250px;
+}
+
+.vertical-text div {
+	width:1.5em; 
+	float:right;
+	font-size:0.9em;
+	font-family:"Open Sans","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+
+.row-title{
+	color: #9966cc;
+	font-size:2em;
+	font-family:微软雅黑,"Open Sans","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+}
+
+#story-title{
+	color: #9966cc;
+	font-size:2em;
+	font-family:微软雅黑,"Open Sans","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+}
+
