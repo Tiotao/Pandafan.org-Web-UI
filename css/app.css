@@ -7,7 +7,7 @@
 }
 
 .pricing-table .price {
-	font-family:"Hiragino Sans GB",,"Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+	font-family:"Hiragino Sans GB","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
 }
 
 #header {
@@ -53,13 +53,13 @@
 	width:1.5em; 
 	float:right;
 	font-size:0.9em;
-	font-family:"Open Sans","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 
 .row-title {
 	color: #9966cc;
 	font-size:2em;
-	font-family:微软雅黑,"Open Sans","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+	font-family:"Hiragino Sans GB","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
 }
 
 .en {
@@ -70,7 +70,7 @@
 	line-height:1em;
 	color: #9966cc;
 	font-size:2em;
-	font-family:微软雅黑,"Open Sans","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+	font-family:"Hiragino Sans GB","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
 }
 
 .green {
