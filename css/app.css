@@ -1,26 +1,22 @@
-
 *,a, h1, h2, h3, h4, h5, h6, button, .pricing-table, .title, .label, .button {
-	font-family:"Open Sans","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+	font-family:"Hiragino Sans GB","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
 }
 
 .pricing-table .title {
-	font-family:"Open Sans","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+	font-family:"Hiragino Sans GB", "Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
 }
 
 .pricing-table .price {
-	font-family:"Open Sans","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+	font-family:"Hiragino Sans GB",,"Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
 }
 
 #header {
-
 	padding-top: 3em;
 	background-image:url(../img/background.png);
 	height:200px;
 	background-size: 400px;
 	background-repeat:no-repeat;
 	background-position: 80% 2em;
-
-
 }
 
 .break-line {
@@ -60,13 +56,17 @@
 	font-family:"Open Sans","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 
-.row-title{
+.row-title {
 	color: #9966cc;
 	font-size:2em;
 	font-family:微软雅黑,"Open Sans","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
 }
 
-#story-title{
+.en {
+	font-family:"Helvetica Neue", Helvetica, Arial;
+}
+
+#story-title {
 	line-height:1em;
 	color: #9966cc;
 	font-size:2em;
@@ -81,6 +81,6 @@
 	color: #9966cc;
 }
 
-.domains-list{
+.domains-list {
 	height:8em;
 }
