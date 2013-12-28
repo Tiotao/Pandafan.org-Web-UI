@@ -10,7 +10,7 @@
   <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/foundation.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700">
+  <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700"> -->
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
   <!-- If you are using the gem version, you need this only -->
@@ -31,9 +31,9 @@
         <h3 class="subheader en">PandaFan</h3>
         <ul class="inline-list">
           <li><a href="#">常见问题</a></li>
-          <li><a href="#">熊猫故事</a></li>
-          <li><a href="#">联系熊猫</a></li>
-          <li><a href="#">资费定价</a></li>
+          <li><a href="#panda-story">熊猫故事</a></li>
+          <li><a href="#panda-contact">联系熊猫</a></li>
+          <li><a href="#panda-price">资费定价</a></li>
           <li><a href="#">Blog</a></li>
         </ul>
       </div>
@@ -66,7 +66,7 @@
 
     </div>
 
-    <div class="row grey-break-line">
+    <div class="row grey-break-line" id="panda-story">
     </div>
 
     <div class="row">
@@ -90,198 +90,86 @@
 
     </div>
 
-    <div class="row grey-break-line">
+    <div class="row grey-break-line" id="panda-price">
     </div>
 
     <div class="row">
       <div class="large-12 columns">
         <div class="row-title">资费定价</div>
         <br>
-        <dl class="sub-nav" data-tab>
-          <dd class="active"><a href="#panel1a">只在电脑上用</a></dd>
-          <dd><a href="#panel2a">移动设备也用</a></dd>
-          </dl>
-        <div class="tabs-content">
-          <div class="content active" id="panel1a">
-            <div class="row">
-
-              <div class="large-3 columns">
-                <ul class="pricing-table">
-                  <li class="title">学术熊猫</li>
-                  <li class="price">¥20.0/月</li>
-                  <li class="description">
-                    不怎么看网页，也很少看视频<br>
-                    网络就是为了学术嘛<br>
-                    如果需要写论文查资料，一心一意做学霸的话<br>
-                    不要大意地选择拥抱我翻滚吧
-                  </li>
-                  <li class="bullet-item">月流量：10GB</li>
-                  <li class="bullet-item">限制设备：2台</li>
-                  <li class="bullet-item"><span class="radius secondary label">不支持移动设备</span></li>
-                  <li class="cta-button">
-                    <a href="/buy_plan?amount=1&amp;id=1" class="button">点此购买 »</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="large-3 columns">
-                <ul class="pricing-table">
-                  <li class="title">超能熊猫</li>
-                  <li class="price">¥79.0/月</li>
-                  <li class="description">
-                    吾，江湖中无人不知无人不晓之超能熊猫是也。 <br>
-                    魅力无穷，流量无穷。 <br>
-                    选择吾为拥抱对象翻滚<br>
-                    此为至高至贵之荣耀
-                  </li>
-                  <li class="bullet-item">月流量：<strong>无限制</strong></li>
-                  <li class="bullet-item">限制设备：5台</li>
-                  <li class="bullet-item"><span class="radius success label">支持移动设备</span></li>
-                  <li class="cta-button">
-                    <a href="/buy_plan?amount=1&amp;id=5" class="button">点此购买 »</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="large-3 columns">
-                <ul class="pricing-table">
-                  <li class="title">逍遥熊猫</li>
-                  <li class="price has-tip" data-width="100" data-selector="tooltipfkr62k2o6r">0.01元/MB</li>
-                  <li class="description">
-                    逍遥熊猫为那些偶尔需要服务的小朋友们翻滚<br>
-                    用多少流量就付多少，不限时长哦！<br>
-                    非常适合上网不多的用户=u=
-                  </li>
-                  <li class="bullet-item">月流量：无限制</li>
-                  <li class="bullet-item">限制设备：4台</li>
-                  <li class="bullet-item"><span class="radius success label">支持移动设备</span></li>
-                  <li class="cta-button">
-                    <a href="/buy_plan?amount=1&amp;id=0" class="button">点此购买 »</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="large-3 columns">
-                <ul class="pricing-table">
-                  <li class="title">阿宅熊猫</li>
-                  <li class="price">¥40.0/月</li>
-                  <li class="description">
-                    伦家的存在是宅腐届的荣光<br>
-                    新番新剧，小说传奇 <br>
-                    没有一样逃得开伦家滴小爪爪<br>
-                    现在是拥抱伦家滴时代，啊呀~别娇羞了……
-                  </li>
-                  <li class="bullet-item">月流量：20GB</li>
-                  <li class="bullet-item">限制设备：2台</li>
-                  <li class="bullet-item"><span class="radius secondary label">不支持移动设备</span></li>
-                  <li class="cta-button">
-                    <a href="/buy_plan?amount=1&amp;id=3" class="button">点此购买 »</a>
-                  </li>
-                </ul>
-              </div>
-
-
-
+        <div class="content">
+          <div class="row">
+            <div class="large-4 columns">
+              <ul class="pricing-table">
+                <li class="title">学术熊猫</li>
+                <li class="price">¥20.0/月</li>
+                <li class="description">
+                  不怎么看网页，也很少看视频<br>
+                  网络就是为了学术嘛<br>
+                  如果需要写论文查资料，一心一意做学霸的话<br>
+                  不要大意地选择拥抱我翻滚吧
+                </li>
+                <li class="bullet-item">月流量：10GB</li>
+                <li class="bullet-item">限制设备：3台</li>
+                <li class="bullet-item"><span class="radius success label">全平台支持</span></li>
+                <li class="cta-button">
+                  <a href="/buy_plan?amount=1&amp;id=2" class="button">点此购买 »</a>
+                </li>
+              </ul>
             </div>
-            <div class="row">
-            <div class="large-12 columns text-right">
-            <h4><small>当前套餐（除逍遥熊猫外）生效期间，只能
-    <span data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="套餐等级：超能熊猫 > 阿宅熊猫Plus > 阿宅熊猫 > 学术熊猫Plus > 学术熊猫 > 逍遥熊猫">升级套餐</span>，不能降级。如需降级，在当前套餐到期后再次购买所需套餐即可</small></h4>
+
+            <div class="large-4 columns">
+              <ul class="pricing-table">
+                <li class="title">超能熊猫</li>
+                <li class="price">¥66.0/月</li>
+                <li class="description">
+                  吾，江湖中无人不知无人不晓之超能熊猫是也。 <br>
+                  魅力无穷，流量无穷。 <br>
+                  选择吾为拥抱对象翻滚<br>
+                  此为至高至贵之荣耀<br>
+                  超能熊猫还能召唤超厉害的小帮手，带你享受更更快的翻滚速度！
+                </li>
+                <li class="bullet-item">月流量：<strong>无限制</strong></li>
+                <li class="bullet-item">限制设备：5台</li>
+                <li class="bullet-item"><span class="radius success label">全平台支持</span><span class="radius orange label has-tip tip-top"  data-tooltip data-options="disable_for_touch:true" title="超能熊猫用户可以选择直接连接熊猫的部分国外服务器，不再经由熊猫的国内服务器中转，享受跑满您本地带宽的快感。注意：此功能要求您的本地网络必须需要能够直接访问熊猫的国外服务器才能使用。更多信息可以联系我们进行咨询">多线路支持</span></li>
+                <li class="cta-button">
+                  <a href="/buy_plan?amount=1&amp;id=5" class="button">点此购买 »</a>
+                </li>
+              </ul>
             </div>
+
+            <div class="large-4 columns">
+              <ul class="pricing-table">
+                <li class="title">逍遥熊猫</li>
+                <li class="price has-tip tip-right" data-tooltip data-options="disable_for_touch:true" data-width="100" title="1GB=1024MB">0.01元/MB</li>
+                <li class="description">
+                  逍遥熊猫为那些偶尔需要服务的小朋友们翻滚<br>
+                  用多少流量就付多少，不限时长哦！<br>
+                  非常适合：<br>
+                  上网不多或者只在手机上使用的用户=u=
+                </li>
+                <li class="bullet-item">月流量：无限制</li>
+                <li class="bullet-item">限制设备：3台</li>
+                <li class="bullet-item"><span class="radius success label">全平台支持</span></li>
+                <li class="cta-button">
+                  <a href="/buy_plan?amount=1&amp;id=0" class="button">点此购买 »</a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="content" id="panel2a">
-            <div class="row">
-              <div class="large-3 columns">
-                <ul class="pricing-table">
-                  <li class="title">学术熊猫Plus</li>
-                  <li class="price">¥29.0/月</li>
-                  <li class="description">
-                    不怎么看网页，也很少看视频<br>
-                    网络就是为了学术嘛<br>
-                    如果需要写论文查资料，一心一意做学霸的话<br>
-                    不要大意地选择拥抱我翻滚吧
-                  </li>
-                  <li class="bullet-item">月流量：15GB</li>
-                  <li class="bullet-item">限制设备：4台</li>
-                  <li class="bullet-item"><span class="radius success label">支持移动设备</span></li>
-                  <li class="cta-button">
-                    <a href="/buy_plan?amount=1&amp;id=2" class="button">点此购买 »</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="large-3 columns">
-                <ul class="pricing-table">
-                  <li class="title">超能熊猫</li>
-                  <li class="price">¥79.0/月</li>
-                  <li class="description">
-                    吾，江湖中无人不知无人不晓之超能熊猫是也。 <br>
-                    魅力无穷，流量无穷。 <br>
-                    选择吾为拥抱对象翻滚<br>
-                    此为至高至贵之荣耀
-                  </li>
-                  <li class="bullet-item">月流量：<strong>无限制</strong></li>
-                  <li class="bullet-item">限制设备：5台</li>
-                  <li class="bullet-item"><span class="radius success label">支持移动设备</span></li>
-                  <li class="cta-button">
-                    <a href="/buy_plan?amount=1&amp;id=5" class="button">点此购买 »</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="large-3 columns">
-                <ul class="pricing-table">
-                  <li class="title">逍遥熊猫</li>
-                  <li class="price has-tip" data-width="100" title="1GB=1024MB">0.01元/MB</li>
-                  <li class="description">
-                    逍遥熊猫为那些偶尔需要服务的小朋友们翻滚<br>
-                    用多少流量就付多少，不限时长哦！<br>
-                    非常适合上网不多的用户=u=
-                  </li>
-                  <li class="bullet-item">月流量：无限制</li>
-                  <li class="bullet-item">限制设备：4台</li>
-                  <li class="bullet-item"><span class="radius success label">支持移动设备</span></li>
-                  <li class="cta-button">
-                    <a href="/buy_plan?amount=1&amp;id=0" class="button">点此购买 »</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="large-3 columns">
-                <ul class="pricing-table">
-                  <li class="title">阿宅熊猫Plus</li>
-                  <li class="price">¥49.0/月</li>
-                  <li class="description">
-                    伦家的存在是宅腐届的荣光<br>
-                    新番新剧，小说传奇 <br>
-                    没有一样逃得开伦家滴小爪爪<br>
-                    现在是拥抱伦家滴时代，啊呀~别娇羞了……
-                  </li>
-                  <li class="bullet-item">月流量：25GB</li>
-                  <li class="bullet-item">限制设备：4台</li>
-                  <li class="bullet-item"><span class="radius success label">支持移动设备</span></li>
-                  <li class="cta-button">
-                    <a href="/buy_plan?amount=1&amp;id=4" class="button">点此购买 »</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-            <div class="large-12 columns text-right">
-            <h4><small>当前套餐（除逍遥熊猫外）生效期间，只能
-    <span data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="套餐等级：超能熊猫 > 阿宅熊猫Plus > 阿宅熊猫 > 学术熊猫Plus > 学术熊猫 > 逍遥熊猫">升级套餐</span>，不能降级。如需降级，在当前套餐到期后再次购买所需套餐即可</small></h4>
-            </div>
-            </div>
+          <div class="row">
+          <div class="large-12 columns text-right">
+          <h4><small>套餐扣费按自然月计。例：11月15日购买学术熊猫套餐，将扣除费用10元，于12月1日套餐到期（如果购买超能熊猫，流量依然为无限）</small></h4>
           </div>
-        </div>
+          </div>
+        </div> 
       </div>
     </div>
 
 <div class="row grey-break-line">
     </div>
 
-    <div class="row">
+    <div class="row" id="panda-contact">
 
        <div class="large-12 columns">
          <div class="row-title">联系熊猫</div>

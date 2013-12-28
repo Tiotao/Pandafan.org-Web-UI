@@ -84,3 +84,11 @@
 .domains-list {
 	height:8em;
 }
+
+.orange.label {
+	background-color: #f39c12;
+}
+
+.label {
+	margin-left: 5px;
+}
