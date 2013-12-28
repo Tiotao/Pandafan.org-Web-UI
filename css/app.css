@@ -53,6 +53,7 @@
 }
 
 .vertical-text div {
+	line-height:1.2em;
 	width:1.5em; 
 	float:right;
 	font-size:0.9em;
@@ -66,6 +67,7 @@
 }
 
 #story-title{
+	line-height:1em;
 	color: #9966cc;
 	font-size:2em;
 	font-family:微软雅黑,"Open Sans","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
