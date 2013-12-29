@@ -38,6 +38,21 @@
 	height:0.5em;
 }
 
+.description-title {
+	font-size:3em;
+	color: #cccc99;
+}
+
+.description-final {
+	word-spacing:2em;
+	font-size:2em;
+	color: #9966cc;
+}
+
+.description-final span{
+	letter-spacing:1em;
+}
+
 #footer {
 	padding-top:2em;
 	padding-bottom: 3em;
@@ -45,7 +60,7 @@
 	height:200px;
 	background-size: 400px;
 	background-repeat:no-repeat;
-	background-position: 80% -250px;
+	background-position: 80% -300px;
 }
 
 .vertical-text div {
