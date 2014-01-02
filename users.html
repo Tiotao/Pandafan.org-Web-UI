@@ -116,40 +116,28 @@
         </div>
       </div>
       <div class="row">
-      <div class="large-6 columns">
+      <div class="large-3 columns plan-block purple-bg">
+      <h4>海外熊猫</h4>
+      <h4><small>套餐类别： VIP<br>
+      套餐折扣： NULL 折<br>
+      到期时间： 2013-3-12<br>
+      剩余流量： 2.1 GB
 
-      <p><b>剩余流量:</b> 无限 GB</p>
-      
-
-      </div>
-      <div class="large-6 columns">
-
-      <p><b>到期时间:</b> 无限</p>
-      
-
-      </div>
-      <div class="large-6 columns">
-
-      <p><b>套餐:</b> VIP</p>
-      
+      </small></h4>
+      <center><a href="#" data-reveal-id="plan-a-details" class="large-12 small-12 tiny secondary button ">查看详情</a></center>
 
       </div>
-      <div class="large-6 columns">
-
-      <p><b>账号余额:</b> ¥ 0.0 <a class="purple" href="#"><b>  充值</b></a></p>
-      
-
-      </div>
-      <div class="large-6 columns">
-
-      <p><b>套餐折扣:</b> NULL 折</p>
-      
+      <div class="large-3 columns plan-block purple-bg">
+      <h4>大陆熊猫</h4>
+      <h4><small>套餐类别： VIP<br>
+      套餐折扣： NULL 折<br>
+      到期时间： 2013-3-12<br>
+      剩余流量： 2.1 GB</small></h4>
+      <center><a href="#" data-reveal-id="login-or-signin" class="large-12 small-12 tiny secondary button">查看详情</a></center>
 
       </div>
-      <div class="large-6 columns">
 
-      
-      
+      <div class="large-6 columns">
 
       </div>
       </div>
@@ -233,6 +221,108 @@
     </div>
    
     </div>
+
+    <div id="plan-a-details" class="reveal-modal medium" data-reveal>
+  <div class="row"> 
+  <div class="large-12 columns">
+  <h3 class="row-title">海外熊猫</h3>
+<br>
+  <dl class="tabs vertical" data-tab> 
+  <dd class="active">
+  <a href="#panel1a"><h4><small class="details-tab" ><i class="fa fa-exclamation-circle fa-fw"></i> 套餐详情</small></h4></a>
+  </dd> 
+  <dd><a href="#panel2a"><h4><small class="details-tab" ><i class="fa fa-asterisk fa-fw"></i> 增值功能</small></h4></a>
+  </dd> 
+  <dd><a href="#panel3a"><h4><small class="details-tab" ><i class="fa fa-cloud fa-fw"></i> 代理列表</small></h4></a>
+  </dd> 
+  <dd><a href="#panel4a"><h4><small class="details-tab" ><i class="fa fa-credit-card fa-fw"></i> 续费设置</small></h4></a>
+  </dd> 
+  </dl> 
+  <div class="tabs-content vertical"> 
+  <div class="content active" id="panel1a"> 
+  <div class="row">
+  <div class="large-12 columns">
+      <h4><small>套餐类别： VIP <a href="#"><b>升级</b></a></small></h4>
+      <h4><small>套餐折扣： NULL 折</small></h4>
+      <h4><small>到期时间： 2013-3-12 <a href="#"><b>续费</b></a></small></h4>
+      <h4><small>剩余流量： 2.1 GB</small></h4>
+
+      </div>
+      </div>
+  </div> 
+  <div class="content" id="panel2a"> 
+  todo
+      
+  </div>
+    
+  <div class="content" id="panel3a"> 
+    <div class="row">
+
+
+      <div class="large-12 columns">
+        
+        <ul>
+        <li><h4><small>如果您不清楚这是干什么的，或者还没有仔细阅读过上面的使用方法，请<b>不要随意填写</b>！，否则将导致您的服务无法使用！</small></h4></li>
+        <li>
+        <h4><small>现在开始，无需您手动添加黑名单和白名单，熊猫们会自动学习、记忆那些不需要熊猫访问的网站啦！学习的周期是30分钟，所以您其实已经不必再手动添加域名了。当然，您不放心的话，添加一下也是没问题的:P</small></h4></li>
+        </ul>
+        </div>
+
+      
+
+      <form>
+      <div class="large-12 columns">
+        <label>不需要熊猫帮忙访问的域名列表.输入一个就换一行哦.
+        </label>
+        <textarea rows="10" class="domains-list"></textarea>
+        <label>一定要熊猫帮忙访问的域名列表.输入一个就换一行哦.
+        </label>
+        <textarea rows="10" class="domains-list"></textarea>
+      </div>
+      <div class="large-12 columns text-right">
+
+        <input class="button tiny secondary" type=submit value="保存设置">
+        </div>
+
+      </form>
+      
+
+      </div>
+
+    </div> 
+  <div class="content" id="panel4a"> 
+  <form data-abide>
+      <div class="row">
+
+      <div class="small-12 columns">
+    <br>
+
+    <label>套餐自动续费（如果准备下月换购流量更少的套餐，请不要自动续费）</label>
+      <input type="radio" name="auto_extend" value="True" id="auto_extend_yes"><label for="auto_extend_yes">是</label>
+      <input type="radio" name="auto_extend" value="False" id="auto_extend_no"><label for="auto_extend_no">否</label>
+
+      <label>超出套餐流量自动购买额外流量（0.01元/MB）</label>
+      <input type="radio" name="auto_by_quote" value="True" id="auto_by_quote_yes"><label for="auto_by_quote_yes">是</label>
+      <input type="radio" name="auto_by_quote" value="False" id="auto_by_quote_ns"><label for="auto_by_quote_no">否</label>
+      </div>
+<div class="small-12 columns text-right">
+      <br><button class="tiny secondary" type="submit">保存设置</button>
+
+
+</div>
+
+  
+
+</div>
+  
+</form>
+  </div>
+  </div>
+  </div>
+
+
+  <a class="close-reveal-modal">&#215;</a>
+</div>
 
 
   <script src="js/vendor/jquery.js"></script>
