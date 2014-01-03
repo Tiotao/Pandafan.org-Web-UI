@@ -24,18 +24,18 @@
 	height:200px;
 }
 
-.plan-block {
+.service-block {
 	padding-top: 1em;
 	border-width: 1em;
 	border-style: solid;
 	border-color:white;
 }
 
-.plan-block * {
+.service-block * {
 	color: white;
 }
 
-.plan-details {
+.service-details {
 	background-color:white;
 	color:#9966cc;
 }
@@ -152,6 +152,10 @@
 	background-color: #9966cc;
 }
 
+.red-bg {
+	background-color: #ff6666;
+}
+
 .grey-bg {
 	background-color: #cccc99;
 }
@@ -185,11 +189,51 @@
 
 dd.active a h4 .details-tab {
 	color: white;
+	border-radius: 3px;
 }
 
-dd a h4 .details-tab {
+dd a {
+	color: #9966cc;
+	border-radius: 3px;
+}
+
+#top-up-link {
+	font-size :1em;
+	color: #cccc99;
+}
+
+.plan-block {
+	background: white;
+	border-color: #E6D9F2;
+}
+
+.plan-block *, .plan-block h4, .plan-block h5 {
+	color:#E6D9F2;
+}
+
+
+
+.plan-block:hover{
+	background: white;
+	border-color: #9966cc;
+}
+
+.plan-block:hover *, .plan-block:hover h4, .plan-block:hover h5 {
 	color: #9966cc;
 }
+
+
+
+.plan-block-selected {
+	background: white;
+	border-color: #9966cc;
+}
+
+.plan-block-selected *, .plan-block-selected h4, .plan-block-selected h5 {
+	color: #9966cc;
+}
+
+
 
 
 

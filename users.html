@@ -18,6 +18,8 @@
 
   <script src="js/modernizr.js"></script>
 
+   
+
 </head>
 <body>
 
@@ -65,6 +67,7 @@
   <div class="row">
   <div class="large-12 columns">
   <div class="row-title">欢迎，Tiotao</div>
+
   <br><br>
   </div>
   </div>
@@ -73,11 +76,11 @@
     <div class="row">
   <div class="large-2 small-2 columns">
 
-  <center class="sub"><a href="#"><i class="fa fa-user fa-3x"></i><p>账号信息</p></a>
+  <center class="sub"><a href="#"><i class="fa fa-user fa-3x"></i><p>服务信息</p></a>
     </center>
   </div>
   <div class="large-2 small-2 columns">
-    <center class="sub"><a href="#"><i class="fa fa-cogs fa-3x"></i><p>账号设置</p></a></center>
+    <center class="sub"><a href="#"><i class="fa fa-cogs fa-3x"></i><p>账户设置</p></a></center>
   </div>
   <div class="large-2 small-2 columns">
     <center class="sub"><a href="#"><i class="fa fa-magic fa-3x"></i><p>使用方法</p></a></center>
@@ -104,6 +107,8 @@
 
 
 
+    
+
     <div class="row grey-break-line">
     </div>
 
@@ -111,37 +116,49 @@
     <div class="large-12 columns">
     <div class="row">
       <div class="large-12 columns">
-        <div class="row-title">账号状态 <span class="radius success label">可用</span></div>
+        <div class="row-title">余额：200.00 RMB <a href="#" id="top-up-link"> 充值</a></div>  
+
         <br>
+
         </div>
       </div>
       <div class="row">
-      <div class="large-3 columns plan-block purple-bg">
-      <h4>海外熊猫</h4>
-      <h4><small>套餐类别： VIP<br>
-      套餐折扣： NULL 折<br>
+      <div class="large-3 columns service-block purple-bg">
+      <h4>宇宙熊猫</h4>
+      <h4><small><b><i class="fa fa-circle fa-fw"></i> 服务状态正常</b><br>服务套餐： VIP<br>
+      服务折扣： NULL 折<br>
       到期时间： 2013-3-12<br>
       剩余流量： 2.1 GB
 
       </small></h4>
-      <center><a href="#" data-reveal-id="plan-a-details" class="large-12 small-12 tiny secondary button ">查看详情</a></center>
+      <center><a href="#" data-reveal-id="service-a-details" class="large-12 small-12 tiny secondary button ">查看详情</a></center>
 
       </div>
-      <div class="large-3 columns plan-block purple-bg">
-      <h4>大陆熊猫</h4>
-      <h4><small>套餐类别： VIP<br>
-      套餐折扣： NULL 折<br>
-      到期时间： 2013-3-12<br>
-      剩余流量： 2.1 GB</small></h4>
-      <center><a href="#" data-reveal-id="login-or-signin" class="large-12 small-12 tiny secondary button">查看详情</a></center>
+      <div class="large-3 columns service-block grey-bg">
+      <h4>地球熊猫</h4>
+      <h4><small><b><i class="fa fa-circle-o fa-fw"></i> 您尚未开通此项服务</b>
+
+      </small></h4>
+      <center><a href="#" data-reveal-id="service-b-details" class="large-12 small-12 tiny secondary button">开通服务</a></center>
 
       </div>
 
-      <div class="large-6 columns">
+      <div class="large-3 columns service-block red-bg">
+      <h4>银河熊猫</h4>
+      <h4><small><b><i class="fa fa-minus-circle fa-fw"></i> 服务状态不正常</b><br>服务套餐： VIP<br>
+      服务折扣： NULL 折
+
+      </small></h4>
+      <center><a href="#" data-reveal-id="service-c-details" class="large-12 small-12 tiny secondary button ">查看详情</a></center>
+
+      </div>
+
+      <div class="large-3 columns">
 
       </div>
       </div>
       </div>
+
       </div>
 
 <div class="row grey-break-line">
@@ -222,16 +239,16 @@
    
     </div>
 
-    <div id="plan-a-details" class="reveal-modal medium" data-reveal>
+    <div id="service-a-details" class="reveal-modal medium" data-reveal>
   <div class="row"> 
   <div class="large-12 columns">
-  <h3 class="row-title">海外熊猫</h3>
+  <h3 class="row-title">宇宙熊猫</h3>
 <br>
-  <dl class="tabs vertical" data-tab> 
+  <dl class="sub-nav tabs vertical" data-tab> 
   <dd class="active">
-  <a href="#panel1a"><h4><small class="details-tab" ><i class="fa fa-exclamation-circle fa-fw"></i> 套餐详情</small></h4></a>
+  <a href="#panel1a"><h4><small class="details-tab" ><i class="fa fa-exclamation-circle fa-fw"></i> 服务详情</small></h4></a>
   </dd> 
-  <dd><a href="#panel2a"><h4><small class="details-tab" ><i class="fa fa-asterisk fa-fw"></i> 增值功能</small></h4></a>
+  <dd><a href="#panel2a"><h4><small class="details-tab" ><i class="fa fa-asterisk fa-fw"></i> 修改套餐</small></h4></a>
   </dd> 
   <dd><a href="#panel3a"><h4><small class="details-tab" ><i class="fa fa-cloud fa-fw"></i> 代理列表</small></h4></a>
   </dd> 
@@ -242,8 +259,8 @@
   <div class="content active" id="panel1a"> 
   <div class="row">
   <div class="large-12 columns">
-      <h4><small>套餐类别： VIP <a href="#"><b>升级</b></a></small></h4>
-      <h4><small>套餐折扣： NULL 折</small></h4>
+      <h4><small>服务套餐： VIP </small></h4>
+      <h4><small>服务折扣： NULL 折</small></h4>
       <h4><small>到期时间： 2013-3-12 <a href="#"><b>续费</b></a></small></h4>
       <h4><small>剩余流量： 2.1 GB</small></h4>
 
@@ -251,11 +268,82 @@
       </div>
   </div> 
   <div class="content" id="panel2a"> 
-  todo
+
+  <div class="row">
+
+  <div class="small-12 columns">
+  <br>
+
+  <div id="plan1" class="panel plan-block" onclick="selectPlan('plan1')">
+  <h4><b>小队长</b></h4>
+  <h5>¥0.01/MB</h5>
+  <h5><small>
+    小队长为那些偶尔需要服务的小朋友们翻滚！用多少流量就付多少，不限时长哦！<br>
+    非常适合：上网不多或者只在手机上使用的用户=u=</small></h5>
+  <ul class="inline-list">
+    <li>
+    <h4><small>限制设备：3台</small></h4></li>
+    <li>
+    <h4><small>月流量：无限</small></h4>
+    </li>
+  </ul>
+  </div>
+
+  <div id="plan2" class="panel plan-block-selected" onclick="selectPlan('plan2')">
+  <h4><b>中队长</b></h4>
+  <h5>¥20.0/月</h5>
+  <h5><small>
+    不怎么看网页，也很少看视频。
+                  网络就是为了学术嘛！<br>
+                  如果需要写论文查资料，一心一意做学霸的话，
+                  不要大意地选择拥抱我翻滚吧！</small></h5>
+  <ul class="inline-list">
+    <li>
+    <h4><small>限制设备：3台</small></h4></li>
+    <li>
+    <h4><small>月流量：10GB</small></h4>
+    </li>
+  </ul>
+  </div>
+
+  <div id="plan3" class="panel plan-block" onclick="selectPlan('plan3')">
+  <h4><b>大队长</b></h4>
+  <h5>¥66.0/月</h5>
+  <h5><small>
+    吾，江湖中无人不知无人不晓之超能熊猫是也。
+                  魅力无穷，流量无穷。
+                  选择吾为拥抱对象翻滚，
+                  此为至高至贵之荣耀。<br>
+                  超能熊猫还能召唤超厉害的小帮手，带你享受更更快的翻滚速度！</small></h5>
+  <ul class="inline-list">
+
+    <li>
+    <h4><small>限制设备：5台</small></h4></li>
+    <li>
+    <h4><small>月流量：无限</small></h4>
+    </li>
+    <li class="bullet-item"><h4><small><span class="has-tip tip-top"  data-tooltip data-options="disable_for_touch:true" title="超能熊猫用户可以选择直接连接熊猫的部分国外服务器，不再经由熊猫的国内服务器中转，享受跑满您本地带宽的快感。注意：此功能要求您的本地网络必须需要能够直接访问熊猫的国外服务器才能使用。更多信息可以联系我们进行咨询">多线路支持</span></small></h4></li>
+  </ul>
+  </div>
+  </div>
+  
+
+  <div class="small-12 columns text-right">
+
+<h5><small><span data-tooltip class="has-tip" title="例：11月15日购买学术熊猫套餐，将扣除费用10元，于12月1日套餐到期（如果购买超能熊猫，流量依然为无限）">套餐扣费按自然月计</span></small></h5>
+
+  <h5><small>升级套餐本月生效，其余修改次月生效</small></h5>
+  
+  <br><button class="tiny secondary" type="submit">保存设置</button>
+  </div>
+
+
+</div>
       
   </div>
     
   <div class="content" id="panel3a"> 
+
     <div class="row">
 
 
@@ -297,11 +385,11 @@
       <div class="small-12 columns">
     <br>
 
-    <label>套餐自动续费（如果准备下月换购流量更少的套餐，请不要自动续费）</label>
+    <label>服务自动续费（如果准备下月换购流量更少的套餐，请不要自动续费）</label>
       <input type="radio" name="auto_extend" value="True" id="auto_extend_yes"><label for="auto_extend_yes">是</label>
       <input type="radio" name="auto_extend" value="False" id="auto_extend_no"><label for="auto_extend_no">否</label>
 
-      <label>超出套餐流量自动购买额外流量（0.01元/MB）</label>
+      <label>超出服务流量自动购买额外流量（0.01元/MB）</label>
       <input type="radio" name="auto_by_quote" value="True" id="auto_by_quote_yes"><label for="auto_by_quote_yes">是</label>
       <input type="radio" name="auto_by_quote" value="False" id="auto_by_quote_ns"><label for="auto_by_quote_no">否</label>
       </div>
@@ -330,5 +418,17 @@
   <script>
     $(document).foundation();
   </script>
+
+  <script type="text/javascript">
+  function selectPlan(id) {
+    var selected = $(".plan-block-selected");
+    for(var i = 0, length = selected.length; i < length; i++){
+      $(".plan-block-selected")[i].className = "panel plan-block";
+    }
+    document.getElementById(id).className = "panel plan-block-selected"; 
+  }
+
+  </script>
+ 
 </body>
 </html>
