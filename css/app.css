@@ -124,7 +124,7 @@
 }
 
 .details-title {
-	color: #9966cc;
+	color: #cccc99;
 	font-size:1.5em;
 	font-family:"Hiragino Sans GB","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
 }
@@ -158,6 +158,10 @@
 
 .grey-bg {
 	background-color: #cccc99;
+}
+
+.grey {
+	color: #cccc99;
 }
 
 .domains-list {
@@ -233,7 +237,14 @@ dd a {
 	color: #9966cc;
 }
 
+.content {
+	width:100%;
+}
 
+.alert-white {
+	background-color:#ff6666;
+	color: white;
+}
 
 
 
