@@ -246,6 +246,14 @@ dd a {
 	color: white;
 }
 
+#osx ul li, #wp ul li, #ios ul li, #android ul li, #windows ul li {
+	font-size:0.8em;
+	color:#6F6F6F;
+}
+
+#payment-preference * {
+	color:#6F6F6F;
+}
 
 
 
